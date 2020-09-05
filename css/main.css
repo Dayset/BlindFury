@@ -110,7 +110,7 @@ body {
   height: 100%;
   width: 100%;
   background-size: cover;
-  opacity: 0;
+  opacity: 1;
 
   animation: 10s ease 0s normal forwards 1 fadein;
   -webkit-animation: fadeout 10s linear 1 normal forwards;
@@ -149,7 +149,7 @@ to{
   width: 100%;
   background-size: contain;
 
-  opacity: 1;
+  opacity: 0;
   animation: 10s ease 0s normal forwards 1 fadein;
   -webkit-animation: fadeout 20s linear 1 normal forwards;
  }
