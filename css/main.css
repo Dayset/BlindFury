@@ -129,8 +129,8 @@ to{
   background-attachment: scroll;
   background-image: url("../assets/bg2.jpg");
   background-repeat: no-repeat;
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   background-size: cover;
   opacity: 0.5;
 
@@ -175,7 +175,7 @@ to{
 
 @keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.5; }
 }
 
 .instructions img {
