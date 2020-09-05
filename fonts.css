@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Conv_dc_s';
+	src: url('fonts/dc_s.eot');
+	src: local('☺'), url('fonts/dc_s.woff') format('woff'), url('fonts/dc_s.ttf') format('truetype'), url('fonts/dc_s.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
