@@ -110,7 +110,6 @@ body {
   height: 100%;
   width: 100%;
   background-size: cover;
-  opacity: 0.5;
 
   animation: 100s ease 0s normal forwards 1 fadein;
   -webkit-animation: fadeout 100s linear 1 normal forwards;
