@@ -53,16 +53,20 @@
 
   </head>
   <body>
-  <div id="fog">    
-    <div class="instructions-overlay" id="instructions">
-    	
-    
+  
+    <div class="instructions-overlay" id="instructions">     	
+  <div id="fog">      
       <div class="instructions" class="hide">
       	<button class="start-button"><span>Loading...</span></button>
         <div style="visibility:hidden">
-		    <audio autoplay>
+
+		    <audio autoplay id="myaudio">
 		        <source src="assets/Kurotokage_Call_To_The_Deep.mp3">
 		    </audio> 
+          <script>
+          var audio = document.getElementById("myaudio");
+          audio.volume = 0.1;
+          </script>
 		</div>
 		<div>
           <p class="demo" style="font-size:400%">This is my<br><b>Game</b></b></p>
