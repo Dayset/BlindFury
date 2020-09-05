@@ -105,14 +105,15 @@ body {
 
 #fog{
   background-attachment: scroll;
-  background-image: url("../assets/bg.gif");
+  background-image: url("/bg.gif");
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   background-size: cover;
+  opacity: 1;
 
-  animation: 100s ease 0s normal forwards 1 fadein;
-  -webkit-animation: fadeout 100s linear 1 normal forwards;
+  animation: 10s ease 0s normal forwards 1 fadein;
+  -webkit-animation: fadeout 240s linear 1 normal forwards;
  }
 
 @-webkit-keyframes fadeout{
@@ -120,7 +121,7 @@ from{
    opacity: 1;
 }
 to{
-    opacity: 0;
+    opacity: 0.5;
 }
 }
 
@@ -147,11 +148,13 @@ to{
   height: 100%;
   width: 100%;
   background-size: contain;
-  opacity: 0;
-  animation: fadein 0.5s;
-  animation-fill-mode: forwards;
+  background-position-y: 30%;
 }
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
 .instructions img {
   padding-top: 20px;
