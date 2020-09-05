@@ -132,7 +132,7 @@ to{
   height: 10%;
   width: 10%;
   background-size: cover;
-  opacity: 0;
+  opacity: 0.5;
 
   animation: 10s ease 0s normal forwards 1 fadein;
   -webkit-animation: fadeout 20s linear 1 normal forwards;
@@ -140,7 +140,7 @@ to{
 
 @-webkit-keyframes fadeout{
 from{
-   opacity: 0;
+   opacity: 0.5;
 }
 to{
     opacity: 1;
