@@ -105,7 +105,7 @@ body {
 
 #fog{
   background-attachment: scroll;
-  background-image: url("/bg.gif");
+  background-image: url("../assets/bg.gif");
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -121,7 +121,7 @@ from{
    opacity: 1;
 }
 to{
-    opacity: 0.5;
+    opacity: 0;
 }
 }
 
@@ -153,7 +153,7 @@ to{
 
 @keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.5; }
 }
 
 .instructions img {
@@ -201,7 +201,7 @@ to{
   border: none;
   display: block;
 
-  opacity: 1;
+  opacity: 0.5;
   -webkit-transition: opacity 2s ease-out;
   -moz-transition: opacity 2s ease-out;
   -o-transition: opacity 2s ease-out;
@@ -211,7 +211,7 @@ to{
 .instructions .start-button:hover {
   background-color: #fff;
   color: #e43b5e;
-  opacity: 0.2;
+  opacity: 1;
 }
 
 .instructions .start-button span.loading:after {
