@@ -105,7 +105,7 @@ body {
 
 #fog{
   background-attachment: scroll;
-  background-image: url("bg.gif");
+  background-image: url("https://dayset.github.io/BlindFury/bg.gif");
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
