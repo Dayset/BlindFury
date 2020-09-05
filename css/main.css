@@ -134,7 +134,7 @@ to{
   opacity: 0;
 
   animation: 10s ease 0s normal forwards 1 fadein;
-  -webkit-animation: fadeout 120s linear 1 normal forwards;
+  -webkit-animation: fadeout 20s linear 1 normal forwards;
  }
 
 @-webkit-keyframes fadeout{
