@@ -16,6 +16,14 @@
     <script src="vendor/CCapture.min.js"></script>
     <script src="vendor/aframe-uploadcare-component.min.js"></script>
     <script src="build/build.js"></script>
+    
+    <audio autoplay id="myaudio">
+    <source src="assets/Kurotokage_Call_To_The_Deep.mp3">
+      </audio> 
+      <script>
+       var audio = document.getElementById("myaudio");
+       audio.volume = 0.5;
+      </script>
 
     <link rel="manifest" href="manifest.webmanifest">
 
@@ -60,13 +68,7 @@
       	<button class="start-button"><span>Loading...</span></button>
         <div style="visibility:hidden">
 
-		    <audio autoplay id="myaudio">
-		        <source src="assets/Kurotokage_Call_To_The_Deep.mp3">
-		    </audio> 
-          <script>
-          var audio = document.getElementById("myaudio");
-          audio.volume = 0.3;
-          </script>
+		    
 		</div>
 		<div>
           <p class="demo" style="font-size:400%">This is my<br><b>Game</b></b></p>
