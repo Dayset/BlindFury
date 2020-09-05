@@ -148,6 +148,8 @@ to{
   width: 100%;
   background-size: contain;
   opacity: 0;
+  animation: fadein 0.5s;
+  animation-fill-mode: forwards;
 }
 
 
