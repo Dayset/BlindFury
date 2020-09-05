@@ -112,7 +112,7 @@ body {
   background-size: cover;
   opacity: 1;
 
-  аanimation: 10s ease 0s normal forwards 1 fadein;
+  аanimation: 100s ease 0s normal forwards 1 fadein;
   -webkit-animation: fadeout 100s linear 1 normal forwards;
  }
 
