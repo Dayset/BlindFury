@@ -113,7 +113,7 @@ body {
   opacity: 1;
 
   animation: 10s ease 0s normal forwards 1 fadein;
-  -webkit-animation: fadeout 100s linear 1 normal forwards;
+  -webkit-animation: fadeout 10s linear 1 normal forwards;
  }
 
 @-webkit-keyframes fadeout{
@@ -124,6 +124,7 @@ to{
     opacity: 0;
 }
 }
+
 #fog2{
   background-attachment: scroll;
   background-image: url("../assets/bg2.jpg");
