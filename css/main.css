@@ -5,6 +5,67 @@ body {
 
 }
 
+#fog{
+  background-attachment: scroll;
+  background-image: url("../assets/bg.gif");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  opacity: 1;
+
+  animation: 1s ease 1s normal forwards 1 fadein;
+  -webkit-animation: fadein 50s linear 1 normal forwards;
+ }
+
+@-webkit-keyframes fadeout{
+from{
+   opacity: 1;
+}
+to{
+    opacity: 0.5;
+}
+}
+
+.instructions {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  width: 100%;
+  opacity: 1;
+  animation: fadein 10s;
+  animation-fill-mode: forwards;
+}
+.instructions .p{
+  line-height: 1.5em;
+}
+
+.instructions-overlay {
+  background-attachment: scroll;
+  
+  background-repeat: no-repeat;
+  background-size: 4100px 1500px;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-position-y: 30%;
+  animation: fadein 10s;
+  background-image: url("../assets/bg.png");
+  *animation: 3s ease 1s normal backwards 1 fadein;
+  -webkit-animation: fadein 3s linear 1 normal backwards;
+ }
+
+@-webkit-keyframes fadein{
+from{
+   opacity: 0;
+}
+to{
+    opacity: 1;
+}
+}
+
 .credits {
   padding: 0 10px;
   margin-top: 50px;
@@ -103,66 +164,8 @@ body {
   background-color: #e43b5e;
 }
 
-#fog{
-  background-attachment: scroll;
-  background-image: url("../assets/bg.gif");
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  opacity: 1;
 
-  animation: 1s ease 1s normal forwards 1 fadein;
-  -webkit-animation: fadein 50s linear 1 normal forwards;
- }
 
-@-webkit-keyframes fadeout{
-from{
-   opacity: 1;
-}
-to{
-    opacity: 0.5;
-}
-}
-
-.instructions {
-  z-index: 100;
-  position: absolute;
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  text-align: center;
-  width: 100%;
-  opacity: 1;
-  animation: fadein 10s;
-  animation-fill-mode: forwards;
-}
-.instructions .p{
-  line-height: 1.5em;
-}
-
-.instructions-overlay {
-  background-attachment: scroll;
-  
-  background-repeat: no-repeat;
-  background-size: 4100px 1500px;
-  height: 100%;
-  width: 100%;
-  background-size: contain;
-  background-position-y: 30%;
-  animation: fadein 10s;
-  background-image: url("../assets/bg.png");
-  animation: 3s ease 1s normal forwards 1 fadein;
-  -webkit-animation: fadein 3s linear 1 normal forwards;
- }
-
-@-webkit-keyframes fadein{
-from{
-   opacity: 0.95;
-}
-to{
-    opacity: 1;
-}
-}
 
 .instructions img {
   padding-top: 20px;
